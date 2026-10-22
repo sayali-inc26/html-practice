@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+</head>
+<body>
+
+    <h1>Online Job Application Portal</h1>
+    <p>Apply for your deram Job</p>
+
+    <hr>
+
+    <form action="">
+
+        <fieldset>
+            <legend>1. Personal Information</legend>
+
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" placeholder="Enter full name">
+            <br><br>
+
+            <label for="password">Create Password:</label>
+            <input type="password" id="password">
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="example@email.com">
+            <br><br>
+
+            <label for="mobileNumber">Mobile Number:</label>
+            <input type="tel" id="mobileNumber" placeholder="10 digit Mobile Number">
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input  type="number" id="age">
+            <br><br>
+            
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <br><br>
+
+            <input type="radio">Male
+            <input type="radio">Female
+            <input type="radio">Other
+
+            <br><br>
+
+            <label for="address">Current Address:</label>
+            <br>
+            <textarea name="" id="address" placeholder="Enter your address" cols="30" rows="5"></textarea>
+            <br> <br>
+
+            <label for="photo"> Profile Photograph:</label>
+            <input type="file" id="photo">
+            <br><br>
+
+            <label for="website">Portfolio Website</label>
+            <input type="url" placeholder="https://example.com">
+
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Educational Background</legend>
+
+            <label for="qualification">Highest Qualification:</label>
+
+            <select name="" id="qualification">
+                <option value="">Select Qualification</option>
+                <option value="">12th Grade</option>
+                <option value="">Under Graduation</option>
+                <option value="">Post Graduation</option>
+            </select>
+
+            <br><br>
+
+            <label for="collegeName">Collage Name:</label>
+            <input type="text" placeholder="Enter Collage name" id="collegename">
+            <br><br>
+
+            <label for="graduationMonth">Graduation Month:</label>
+            <input type="month" id="graduationMonth">
+            <br><br>
+
+            <label for="internshipWeek">Internship Week:</label>
+            <input type="week" id="internshipWeek">
+            <br><br>
+
+            <label for="graduationYear">Graduation Year:</label>
+            <input type="text" id="graduationYear">
+            <br><br>
+
+            <label for="certifications">Certifications Completed:</label>
+            <br><br>
+            <input type="checkbox" id="certifications">Java
+            <input type="checkbox" id="certifications">Python
+            <input type="checkbox" id="certifications">Web Development
+
+            <br><br>
+
+            <label for="interviewDate">Prefered Interview Date:</label>
+            <input type="datetime-local" id="interviewDate">
+
+
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Job Preferrences</legend>
+
+            <label for="jobRole">Search Job Role:</label>
+            <input type="text" placeholder="Search Job Positions" id="jobRole">
+            <br><br>
+
+            <label for="selectJobRole">Select Job Role:</label>
+
+            <select name="" id="">
+                <option value="">--Select Job Role--</option>
+                <option value="">Web Development</option>
+                <option value="">Mobile Development</option>
+                <option value="">Backend Development</option>
+            </select>
+            <br><br>
+
+            <label for="employmentType">EmploymentType:</label>
+            <br><br>
+            <input type="radio">Full Time
+            <input type="radio">Part Time
+            <input type="radio">Internship
+
+            <br><br>
+
+            <label for="expectedSalary">Expected Monthly Salary(INR):</label>
+            <input type="text">
+            <br><br>
+
+             <label for="interviewTime">Prefered Interview Time:</label>
+            <input type="time">
+            <br><br>
+
+             <label for="themeColor">Prefered Theme Color:</label>
+            <input type="color">
+            <br><br>
+
+            <label for=""> Coding Confidence(0-10):</label>
+            <input type="range">
+            <br><br>
+
+            <label for="">Linkdin Profile</label>
+            <input type="url" placeholder="https://linkdin.com/in/users">
+
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>4.Technical Skills and Experience</legend>
+
+            <label for="">Year Of Experience:</label>
+            <input type="text" placeholder="0">
+            <br><br>
+
+            <label for="">Prefered Technology:</label>
+            <input type="text" placeholder="">
+            <br><br>
+
+            <label for="">Technical Skills:</label>
+            <select name="" id="" multiple>
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JavaScript</option>
+                <option value="">Python</option>
+                <option value="">ReactJS </option>
+            </select>
+            <br><br>
+
+            <label for="">Upload Resume(PDF only):</label>
+            <input type="file" accept=".pdf,application/pdf">
+            <br><br>
+
+            <label for="">Upload Certificate:</label>
+            <input type="file">
+            <br><br>
+
+            <label for="">Why should we hire you?</label>
+            <textarea cols="30" rows="6" placeholder="Describe your skills and strengths"></textarea>
+            <br><br>
+
+
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>5. Skills Assessment and Application Status</legend>
+
+            <label for="">HTML Skill Level:</label>
+            <br>
+            <input type="range" min="0" max="100">
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
