@@ -1,0 +1,50 @@
+body{
+    justify-self: center;
+    text-align: center;
+    background-color: #0D1322;
+    color: white;
+}
+
+figure > img{
+    height: 124px;
+    width: 124px;
+    border-radius: 12px;
+}
+.mainCard{
+    background-color: rgb(58, 59, 59);
+    border-radius: 12px;
+    padding: 12px;
+
+}
+
+.mainCard h2{
+    font-size: 31px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.mainCard h3{
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #38BDF8;
+
+}
+
+.mainCard p{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color:  #94A3B8;
+
+}
+
+.mainCard button{
+    background-color:  #F59E0B;
+    width: 552px;
+    height: 34px;
+    color: black;
+    border-radius: 25px;
+    border: none;
+
+}
